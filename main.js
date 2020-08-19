@@ -16,7 +16,7 @@ $(document).ready(function () {
                         <img class="picture" src="${post.data.thumbnail}" alt="">
                         <br>
                         <a class="btn btn-sm btn-success" href="${post.data.url_overridden_by_dest}">Click here<a>
-                        <p class="para">Toggling </p>
+                      
                         <hr>
                     </div>
                 `;
