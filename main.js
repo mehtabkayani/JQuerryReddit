@@ -31,12 +31,25 @@ $(document).ready(function () {
     });
 });
 
-$(document).on('mouseover mouseout', '.picture', function(){        
+$(document).on('mouseout', '.picture', function(){        
     $(this).animate({
         opacity: 025,
         right: "+=50",
-        height: "toggle"
-    }, 5000, function (){
+        height: "-=20"
+       
+    }, 100, function (){
+
+    })
+});
+
+$(document).on('mouseover', '.picture', function(){        
+    $(this).animate({
+        opacity: 025,
+        right: "+=50",
+        //height: "toggle",
+        height: "+=20"
+       
+    }, 100, function (){
 
     })
 });
